@@ -1,0 +1,24 @@
+{
+  "reservations": [
+    {
+      "id": 1767901207959,
+      "day": "Dienstag",
+      "personCount": 12,
+      "email": "f",
+      "timestamp": "2026-01-08T19:40:07.959Z"
+    },
+    {
+      "id": 1767901273946,
+      "day": "Dienstag",
+      "personCount": 13,
+      "email": "faf",
+      "timestamp": "2026-01-08T19:41:13.946Z"
+    }
+  ],
+  "personsByDay": {
+    "Dienstag": 25,
+    "Mittwoch": 0,
+    "Donnerstag": 0,
+    "Freitag": 0
+  }
+}
