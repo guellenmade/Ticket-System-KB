@@ -280,7 +280,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎭 JUMANJI THEATER</h1>
+            <h1>JUMANJI THEATER</h1>
             <p>Kirchbünt</p>
         </div>
 
@@ -292,25 +292,25 @@
             </div>
 
             <div class="reservations-section">
-                <div class="reservation-status">📊 Verfügbare Plätze pro Tag:</div>
+                <div class="reservation-status">Verfügbare Plätze pro Tag:</div>
                 <div class="availability-grid">
                     <div class="availability-day" id="day-Dienstag">
-                        <div class="day-name">📅 Dienstag</div>
+                        <div class="day-name">Dienstag</div>
                         <div class="available-spots" data-day="Dienstag">200</div>
                         <div class="spots-label">Plätze verfügbar</div>
                     </div>
                     <div class="availability-day" id="day-Mittwoch">
-                        <div class="day-name">📅 Mittwoch</div>
+                        <div class="day-name">Mittwoch</div>
                         <div class="available-spots" data-day="Mittwoch">200</div>
                         <div class="spots-label">Plätze verfügbar</div>
                     </div>
                     <div class="availability-day" id="day-Donnerstag">
-                        <div class="day-name">📅 Donnerstag</div>
+                        <div class="day-name">Donnerstag</div>
                         <div class="available-spots" data-day="Donnerstag">200</div>
                         <div class="spots-label">Plätze verfügbar</div>
                     </div>
                     <div class="availability-day" id="day-Freitag">
-                        <div class="day-name">📅 Freitag</div>
+                        <div class="day-name">Freitag</div>
                         <div class="available-spots" data-day="Freitag">200</div>
                         <div class="spots-label">Plätze verfügbar</div>
                     </div>
@@ -322,12 +322,12 @@
                 <div class="reservation-count" id="reservationCount">200</div>
                 
                 <div class="max-warning" id="maxWarning">
-                    ⚠️ Alle Plätze für diesen Tag sind bereits reserviert!
+                    Alle Plätze für diesen Tag sind bereits reserviert!
                 </div>
 
                 <form id="reservationForm" style="display: block;">
                     <div class="form-group">
-                        <label for="daySelect">📅 Tag auswählen:</label>
+                        <label for="daySelect">Tag auswählen:</label>
                         <select id="daySelect" required onchange="updateAvailableSpots()">
                             <option value="">-- Wähle einen Tag --</option>
                             <option value="Dienstag">Dienstag</option>
@@ -338,17 +338,17 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="personCount">👥 Anzahl Personen:</label>
+                        <label for="personCount">Anzahl Personen:</label>
                         <input type="number" id="personCount" min="1" max="20" value="1" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="email">📧 E-Mail:</label>
+                        <label for="email">E-Mail:</label>
                         <input type="email" id="email" placeholder="name@example.com" required>
                     </div>
 
                     <button type="button" class="reserve-button" id="reserveButton" onclick="makeReservation()">
-                        🎫 RESERVIEREN
+                        RESERVIEREN
                     </button>
                 </form>
                 <div class="status-message" id="statusMessage"></div>
